@@ -1,0 +1,374 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-family: sans-serif;
+   
+    margin: 0;
+    padding: 0;
+   
+    height: 100%;
+}
+
+.body-home {
+    background-image: url('images/background%20image%202.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*========== HEADER =========*/
+
+.header {
+    background-color: darkslategray;
+   
+    width: 100%;
+    height: 100px;
+    top: 0;
+   
+    position: fixed;
+    overflow: hidden;
+   
+    text-align: center;
+}
+
+.header i {
+    float: left;
+    padding: 17px 0px 0px 17px;
+    color: navajowhite ;
+}
+
+.header img {
+    width: 100px;
+    padding: inherit;
+   
+}
+
+/*========== HOME PAGE =========*/
+
+#home-logo-img {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin: auto;
+    padding: 0px;
+    padding-bottom: 40px ;
+}
+
+/*========== HOME PAGE-MENU =========*/
+
+.home-menu-item {
+    text-decoration: none;
+    text-transform: uppercase;
+   
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    border: 5px solid black;
+   
+   
+    display: block ;
+    padding: 10px ;
+    margin: auto ;
+    margin-bottom: 10px ;
+    width: 80% ;
+}
+
+
+
+
+/*============ MEALS PAGE ===========*/
+
+#meals {
+    padding-top: 50px;
+     background-image: url('images/background%20image%202.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 10px ;
+    width: 100% ;
+    height: 100% ;
+}
+
+.meals-list a {
+    text-decoration: none;
+}
+
+.meals-list-item {
+    border: 5px solid black;
+    display: block ;
+    padding: 10px ;
+    margin: auto ;
+    margin-bottom: 10px ;
+    margin-top: 50px ;
+    width: 80% ;
+}
+
+.meals-list-item h1 {
+    font-weight: bold;
+    font-size: 20px ;
+    color: black;
+    padding-left: 10px ;
+    display: block ;
+}
+
+.meals-list-item i {
+    float: right ;
+    color: navajowhite;
+    padding-right: 10px ;
+}
+
+#body-meals i {
+    padding-left: 20px ;
+    padding-top: 50px ;
+
+}
+
+#meals img {
+    width: 300px ;
+    padding: inherit;
+}
+
+
+/*===== RECIPE DETAILS MENU =====*/
+
+
+
+
+/*===== RECIPE DETAILS MENU =====*/
+
+#recipe {
+    padding-top: 50px;
+    background-image: url(images/background-02-port.png) ;
+    background-repeat: no-repeat ;
+    background-size: cover ;
+}
+
+.recipe-details img {
+    width: 400px;
+    padding-bottom: 0px ;
+    height: 400px;
+    padding: inherit;
+}
+
+.recipe-details h1 {
+    font-size: 25px;
+    text-align: center;
+    border: 5px solid #1a1a1a;
+    margin; 10px;
+    padding: 5px;
+}
+
+.recipe-details h2 {
+    font-size: 20px;
+    text-align: left;
+    margin: 0;
+    margin-left: 10px;
+}
+
+.recipe-details-info {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.recipe-details-info p {
+    font-size: 13px;
+    display: inline-block;
+}
+
+.recipe-details-ingredients label {
+    line-height: 25px;
+    margin-left: 10px;
+}
+
+
+.botton a{
+    background-color: #1a1a1a;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+       
+}
+
+.input[type=text] {
+    width: 20%;
+    padding: 12px 20px;
+    margin:8px 0;
+    box-sizing: border-box;
+    line-height: 25px
+   
+   
+   
+}
+
+
+/*=====DRINKS PAGE=====*/
+
+#drinks{
+     padding-top: 50px;
+    background-image: url(images/background%20image%202.jpg) ;
+    background-repeat: no-repeat ;
+    background-size: cover ;
+    text-decoration: none;
+    background-position: center;
+    padding-bottom: 10px ;
+    width: 100% ;
+    height: 100% ;
+}
+
+
+
+
+.drinks-list a {
+    text-decoration: none;
+}
+
+.drinks-list-item {
+    border: 5px solid black;
+    display: block ;
+    padding: 10px ;
+    margin: auto ;
+    margin-bottom: 10px ;
+    margin-top: 50px ;
+    width: 80% ;
+}
+
+.drinks-list-item h1 {
+    font-weight: bold;
+    font-size: 20px ;
+    color: black;
+    padding-left: 10px ;
+    display: block ;
+}
+
+.drinks-list-item i {
+    float: right ;
+    color: navajowhite;
+    padding-right: 10px ;
+}
+
+#drinks-meals i {
+    padding-left: 20px ;
+    padding-top: 50px ;
+
+}
+
+#drinks img {
+    width: 300px ;
+    padding: inherit;
+}
+
+
+/*======PLACE ORDER PAGE =======*/
+
+.pages a{
+    font-size: 22px;
+    font-weight: 400;
+    font-family: oswald,'Times New Roman', Times, serif;
+}
+.pages a:hover{
+    text-decoration: underline rgb(9, 0, 58);
+}
+
+.Contact-btn{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.Contact-btn a{
+    background-color: rgb(9, 0, 58);
+    border: 2px solid rgb(9, 0, 58);
+    border-radius: 12px;
+    padding: 5px;
+    color: black;
+}
+.Contact-btn a:hover{
+    background-color: transparent;
+    color: rgb(9, 0, 58);
+}
+
+a{
+    text-decoration: none;
+    color: rgb(9, 0, 58);
+}
+
+#check{
+    display: none;
+}
+
+.checkbtn {
+    font-size: 30px;
+    cursor: pointer;
+    color: rgb(9, 0, 58);
+    display: none;
+}
+
+
+/*=====DESSERTS PAGE=====*/
+
+#desserts{
+     padding-top: 50px;
+    background-image: url(images/background%20image%202.jpg) ;
+    background-repeat: no-repeat ;
+    background-size: cover ;
+    text-decoration: none;
+    background-position: center;
+    padding-bottom: 10px ;
+    width: 100% ;
+    height: 100% ;
+}
+
+
+
+.desserts-list a {
+    text-decoration: none;
+}
+
+.desserts-list-item {
+    border: 5px solid black;
+    display: block ;
+    padding: 10px ;
+    margin: auto ;
+    margin-bottom: 10px ;
+    margin-top: 50px ;
+    width: 80% ;
+}
+
+.desserts-list-item h1 {
+    font-weight: bold;
+    font-size: 20px ;
+    color: black;
+    padding-left: 10px ;
+    display: block ;
+}
+
+.desserts-list-item i {
+    float: right ;
+    color: navajowhite;
+    padding-right: 10px ;
+}
+
+#desserts-meals i {
+    padding-left: 20px ;
+    padding-top: 50px ;
+
+}
+
+#desserts img {
+    width: 300px ;
+    padding: inherit;
+}
